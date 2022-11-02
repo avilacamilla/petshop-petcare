@@ -1,0 +1,86 @@
+body {
+    background-color: #5cc5e9;
+  
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.adress {
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #111;
+
+}
+
+span .icon-wpp {
+    width: 10%;
+}
+
+.adress-contact {
+    font-size: 13px;
+    font-weight: none;
+    text-shadow: none;
+    color: #111;
+    cursor: pointer;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: rgba(17, 17, 17, 0.89);
+    font-weight: 600;
+    transition: all ease 0.2s;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+
+
+#banner {
+    width: 100%;
+    border-radius: 1px;
+    
+}
+
+.principal {
+   text-align: center;
+   margin-left: 10%;
+   margin-right: 10%;
+    
+}
+
+.principal h1 {
+    text-align: left;
+    font-family: 'Roboto', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    color: #111;
+    
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #FEFEFE;
+    margin-left: 10%;
+    margin-right: 10%;
+}
