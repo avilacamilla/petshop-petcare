@@ -64,19 +64,23 @@ a:hover {
 
 #space-services {
    text-align: center;
-   margin-left: 10%;
-   margin-right: 10%;
+   margin-right: 0;
+   margin-left: 0;
+   padding: 50px;
+   background-repeat: no-repeat;
+   background-color: #FEFEFE;
     
 }
 
-h1 {
+
+#space-services h1 {
     text-align: left;
     font-family: 'Roboto', cursive;
     font-weight: 700;
     font-size: 40px;
-    color: #f1f1f1;
-    text-shadow: 2px 1px 10px rgba(17, 17, 17, 0.445);
-    margin-left: 5%;
+    color:  #111;
+    text-shadow: 2px 1px 10px rgba(17, 17, 17, 0.13);
+    margin-left: 10%;
     
 }
 
@@ -87,9 +91,14 @@ h1 {
 }
 
 .services h2 {
-    font-size: 20px;
+    font-size: 28px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
+    transition: all ease 0.3s;
+}
+
+.services li:hover h2 {
+    font-size: 32px;
 }
 
 .services li {
@@ -102,6 +111,7 @@ h1 {
     box-sizing: border-box;
     border: 2px solid #111;
     border-radius: 10px;
+    transition: all ease 0.3s;
 }
 
 .services li:hover {
@@ -109,15 +119,14 @@ h1 {
 }
 
 .services li:active {
-    border-color: #088c19;
+    border-color: #ed4c30;
 }
 
-.services li:hover h2 {
-    font-size: 32px;
-}
 
 .service-description {
-    font-size: 18px;
+    font-size: 19px;
+    color: #111;
+    
 }
 
 .service-price {
@@ -126,11 +135,12 @@ h1 {
     margin-top: 10px;
 }
 
-#space-services {
-    background: #F1F1F1;
-    margin-right: 0;
-    margin-left: 0;
-    padding: 50px;
+.service-price a {
+    color: #ed4c30;
+}
+
+.service-price a:hover {
+
 }
 
 #space-products h1 {
