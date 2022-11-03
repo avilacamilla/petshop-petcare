@@ -8,8 +8,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 10px;
     margin-bottom: 10px;
 
@@ -62,25 +62,102 @@ a:hover {
     
 }
 
-.principal {
+#space-services {
    text-align: center;
    margin-left: 10%;
    margin-right: 10%;
     
 }
 
-.principal h1 {
+h1 {
     text-align: left;
     font-family: 'Roboto', cursive;
     font-weight: 700;
     font-size: 40px;
-    color: #111;
+    color: #f1f1f1;
+    text-shadow: 2px 1px 10px rgba(17, 17, 17, 0.445);
+    margin-left: 5%;
     
 }
+
+.services {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.services h2 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.services li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #111;
+    border-radius: 10px;
+}
+
+.services li:hover {
+    border-color: #5cc5e9;
+}
+
+.services li:active {
+    border-color: #088c19;
+}
+
+.services li:hover h2 {
+    font-size: 32px;
+}
+
+.service-description {
+    font-size: 18px;
+}
+
+.service-price {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#space-services {
+    background: #F1F1F1;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 50px;
+}
+
+#space-products h1 {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Roboto', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FEFEFE;
+    text-shadow: 2px 1px 10px rgba(27, 26, 26, 0.452);
+}
+
 
 p {
     font-family: 'Roboto', sans-serif;
     color: #FEFEFE;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+footer {
+    text-align: center;
+    background: #ed4c30;
+    
+}
+
+#logo-footer {
+    width: 10%;
+    margin-top: 40px;
 }
