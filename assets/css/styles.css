@@ -153,6 +153,23 @@ a:hover {
     text-shadow: 2px 1px 10px rgba(27, 26, 26, 0.452);
 }
 
+.products li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    transition: all ease 0.3s;
+    margin-top: 30px;
+}
+
+.products img {
+    width: 50%;
+    border-radius: 10px;
+}
+
 
 p {
     font-family: 'Roboto', sans-serif;
