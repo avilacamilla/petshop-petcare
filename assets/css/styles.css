@@ -8,10 +8,9 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 15%;
-    margin-right: 15%;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 100%;
 
 }
 
@@ -20,11 +19,6 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     color: #111;
-
-}
-
-span .icon-wpp {
-    width: 10%;
 }
 
 .adress-contact {
@@ -64,11 +58,10 @@ a:hover {
 
 #space-services {
    text-align: center;
-   margin-right: 0;
-   margin-left: 0;
    padding: 50px;
    background-repeat: no-repeat;
    background-color: #FEFEFE;
+   width: 100%;
     
 }
 
